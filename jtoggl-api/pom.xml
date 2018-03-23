@@ -39,11 +39,6 @@
             <version>4.10</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-          <groupId>com.github.Spantree</groupId>
-          <artifactId>jtoggl</artifactId>
-          <version>1.0.3</version>
-        </dependency>
     </dependencies>
     
     <build>
@@ -61,12 +56,5 @@
     <scm>
         <developerConnection>scm:svn:https://jtoggl.googlecode.com/svn/trunk/jtoggl-api</developerConnection>
     </scm>
-
-	<distributionManagement>
- 		<repository>
-		   <id>jitpack.io</id>
-       <url>https://jitpack.io</url>
-		</repository>
-	</distributionManagement>
 
 </project>
