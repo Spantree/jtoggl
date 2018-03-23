@@ -39,6 +39,11 @@
             <version>4.10</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+          <groupId>com.github.Spantree</groupId>
+          <artifactId>jtoggl</artifactId>
+          <version>1.0.3</version>
+        </depenency>
     </dependencies>
     
     <build>
@@ -59,13 +64,9 @@
 
 	<distributionManagement>
  		<repository>
-		   <id>public_releases</id>
-		   <url>http://pandora.comerge.net:8081/nexus/content/repositories/public_releases</url>
+		   <id>jitpack.io</id>
+       <url>https://jitpack.io</url>
 		</repository>
-		<snapshotRepository>
-		    <id>public_snapshots</id>
-		    <url>http://pandora.comerge.net:8081/nexus/content/repositories/public_snapshots</url>
-		</snapshotRepository>
 	</distributionManagement>
 
 </project>
