@@ -43,7 +43,7 @@
           <groupId>com.github.Spantree</groupId>
           <artifactId>jtoggl</artifactId>
           <version>1.0.3</version>
-        </depenency>
+        </dependency>
     </dependencies>
     
     <build>
